@@ -25,7 +25,7 @@ object Objects extends App {
   val john = new Person("John")
   println(mery == john)
 
-  val bobbie = Person(mery, john)
+  //val bobbie = Person(mery, john)
 
 
   // Scala Applications = Scala object with
