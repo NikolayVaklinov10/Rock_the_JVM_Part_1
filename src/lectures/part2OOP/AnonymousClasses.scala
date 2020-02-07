@@ -21,3 +21,5 @@ object AnonymousClasses extends App{
   }
 
 }
+
+
