@@ -134,6 +134,10 @@ case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
     t.fold(operator(start, h))(operator)
 
 }
+trait MyPredicate[T]
+
+
+
 
 object ListTest extends App {
   val listOfIntegers: MyList[Int] = new Cons(1, new Cons(2, new Cons(3, Empty)))
