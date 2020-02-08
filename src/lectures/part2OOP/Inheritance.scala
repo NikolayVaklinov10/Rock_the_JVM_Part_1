@@ -1,5 +1,7 @@
 package lectures.part2OOP
 
+
+// Scala has single Class Inheritance, but multiple Trait Inheritance
 object Inheritance extends App{
 
   // single class inheritance
